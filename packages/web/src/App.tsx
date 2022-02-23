@@ -1,11 +1,14 @@
-import { Button } from '@my-workspace/common';
+import { Button, IconButton } from '@my-workspace/common';
+   import DeleteIcon from '@mui/icons-material/Delete';
+
 
 function App() {
-  return (
+  return (  
     <div className='App'>
-      <Button textColor='red' >Hello</Button>
+      <Button textColor='red'>Hello</Button>
+      <IconButton icon={DeleteIcon} />
     </div>
   );
-}
+};
 
 export default App;
